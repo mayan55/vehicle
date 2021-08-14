@@ -1,0 +1,173 @@
+{
+	"id": "fad3b7a2-347d-7ddb-58ec-723cb1af7c3e",
+	"name": "nextlua",
+	"description": "",
+	"order": [
+		"36661587-2144-af9a-540f-8ff8eb3520b5",
+		"8bb7a466-53af-7b68-d2e1-b97ef47dae0d",
+		"ee3bd773-c194-e702-93d5-599faf73b41d",
+		"bf53250e-cd13-7a4b-2109-2eeffe421fed",
+		"a6bd6ff5-c6aa-73dd-a845-31acb7bb7f63"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1628956382649,
+	"owner": "13188768",
+	"public": false,
+	"requests": [
+		{
+			"id": "36661587-2144-af9a-540f-8ff8eb3520b5",
+			"headers": "Authorization: Basic bWFkbWluOjM0U2Ftc3VuNTU=\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic bWFkbWluOjM0U2Ftc3VuNTU=",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/vehicle/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1628971783164,
+			"name": "http://localhost:8000/api/vehicle/",
+			"description": "",
+			"collectionId": "fad3b7a2-347d-7ddb-58ec-723cb1af7c3e",
+			"responses": [],
+			"rawModeData": "{\n\t\"vehicle_model_id\":2,\n\t\"plaka\":\"tttt\",\n\t\"km\":9000000,\n\t\"sase_no\":\"kjahdkjhajkdhhadkha\",\n\t\"renk\":\"beyaz\"\n}"
+		},
+		{
+			"id": "8bb7a466-53af-7b68-d2e1-b97ef47dae0d",
+			"headers": "Authorization: Basic bWFkbWluOjM0U2Ftc3VuNTU=\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic bWFkbWluOjM0U2Ftc3VuNTU=",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/vehicle/4/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1628970812722,
+			"name": "http://localhost:8000/api/vehicle/",
+			"description": "",
+			"collectionId": "fad3b7a2-347d-7ddb-58ec-723cb1af7c3e",
+			"responses": [],
+			"rawModeData": "{\n\t\"vehicle_model_id\":2,\n\t\"plaka\":\"bbb\",\n\t\"km\":9000000,\n\t\"sase_no\":\"kjahdkjhajkdhhadkha\",\n\t\"renk\":\"beyaz\"\n}"
+		},
+		{
+			"id": "a6bd6ff5-c6aa-73dd-a845-31acb7bb7f63",
+			"headers": "Authorization: Basic bWFkbWluOjM0U2Ftc3VuNTU=\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic bWFkbWluOjM0U2Ftc3VuNTU=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/vehicle/8/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1628971746290,
+			"name": "http://localhost:8000/api/vehicle/",
+			"description": "",
+			"collectionId": "fad3b7a2-347d-7ddb-58ec-723cb1af7c3e",
+			"responses": []
+		},
+		{
+			"id": "bf53250e-cd13-7a4b-2109-2eeffe421fed",
+			"headers": "Authorization: Basic bWFkbWluOjM0U2Ftc3VuNTU=\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic bWFkbWluOjM0U2Ftc3VuNTU=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/vehicle/4/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1628970808582,
+			"name": "http://localhost:8000/api/vehicle/ detail",
+			"description": "",
+			"collectionId": "fad3b7a2-347d-7ddb-58ec-723cb1af7c3e",
+			"responses": []
+		},
+		{
+			"id": "ee3bd773-c194-e702-93d5-599faf73b41d",
+			"headers": "Authorization: Basic bWFkbWluOjM0U2Ftc3VuNTU=\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic bWFkbWluOjM0U2Ftc3VuNTU=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/vehicle/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1628958108089,
+			"name": "http://localhost:8000/api/vehicle/",
+			"description": "",
+			"collectionId": "fad3b7a2-347d-7ddb-58ec-723cb1af7c3e",
+			"responses": []
+		}
+	]
+}
