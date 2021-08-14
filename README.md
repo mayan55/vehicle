@@ -3,7 +3,7 @@
 Postman collection added. filename `nextlua.postman_collection.json`
 <hr/>
 
-####GET
+**GET** <br>
 http://localhost:8000/api/vehicle/
 ````
 [
@@ -25,7 +25,7 @@ http://localhost:8000/api/vehicle/
 
 <hr/>
 
-####GET 
+**GET** <br>
 http://localhost:8000/api/vehicle/id
 ````
 {
@@ -43,7 +43,7 @@ http://localhost:8000/api/vehicle/id
 ````
 <hr/>
 
-####POST
+**POST** <br>
 http://localhost:8000/api/vehicle/
 
 <br>
@@ -59,7 +59,7 @@ http://localhost:8000/api/vehicle/
 ```
 <hr/>
 
-####PUT
+**PUT** <br>
 http://localhost:8000/api/vehicle/id/
 
 <br>
@@ -75,5 +75,5 @@ http://localhost:8000/api/vehicle/id/
 ```
 <hr/>
 
-####DELETE
+**DELETE** <br>
 http://localhost:8000/api/vehicle/id/
